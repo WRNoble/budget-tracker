@@ -16,7 +16,8 @@ body {
 
 .container {
   margin: 30px auto;
-  width: 350px;
+  width: 400px;
+  border: solid black 5px;
 }
 
 h1 {

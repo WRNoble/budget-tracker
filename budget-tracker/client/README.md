@@ -1,68 +1,28 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#Budget-Tracker:
 
-## Available Scripts
+Budget-Tracker is a React application which allows the users to insert both income and expense and tracks them but updating the total money the user has in their possession. In addition the application lists both income and expenses and allows the user to delete instances where an entry may have been made in error. The total will update to reflect any updates made to this section. The backend is built out with Express and MongoDB with Mongoose. This stores the data put into the application in the backend so that information is not lost upon refreshing the page.
 
-In the project directory, you can run:
+##Installation:
 
-### `npm start`
+The user who wishes to use this app will need to run this app locally will need to run "npm install" to get the dependencies to download. The user should first have node installed on their local device. Both the frontend and backend are set up to run at the same time on your local host. You need to simply run the command "npm run dev" in your terminal if you wish to use your local host.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```
+npm install
+```
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+```
+npm run dev
+```
 
-### `npm test`
+##Technologies Used:
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The frontend is built entirely with React.js while the backend is built with Express.js while using MongoDB and Mongoose. The data itself is stored with Mongo Atlas.
 
-### `npm run build`
+##License
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+MIT
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+##Author
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+William Ray Noble, Jr
+July 29, 2020
