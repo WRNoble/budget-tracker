@@ -4,7 +4,7 @@ Budget-Tracker is a React application which allows the users to insert both inco
 
 ##Installation:
 
-The user who wishes to use this app will need to run this app locally will need to run "npm install" to get the dependencies to download. The user should first have node installed on their local device. Both the frontend and backend are set up to run at the same time on your local host. You need to simply run the command "npm run dev" in your terminal if you wish to use your local host.
+The user who wishes to use this app will need to run this app locally will need to run "npm install" from within the budget-tracker folder to get the dependencies to download. The user should first have node installed on their local device. Both the frontend and backend are set up to run at the same time on your local host. You need to simply run the command "npm run dev" in your terminal if you wish to use your local host.
 
 ```
 npm install
