@@ -11,6 +11,7 @@ body {
   min-height: 100vh;
   margin: 0;
   font-family: "Lato", sans-serif;
+  background-image: url("./image/money.jpg");
 }
 
 .container {
@@ -21,21 +22,30 @@ body {
 h1 {
   letter-spacing: 1px;
   margin: 0;
+  color: red;
+}
+
+h2 {
+  color: white;
+  background-color: black;
 }
 
 h3 {
   border-bottom: 1px solid #bbb;
   padding-bottom: 10px;
   margin: 40px 0 10px;
+  background-color: black;
+  color: red;
 }
 
 h4 {
   margin: 0;
   text-transform: uppercase;
+  color: pink;
 }
 
 .inc-exp-container {
-  background-color: #fff;
+  background-color: rgb(17, 14, 180);
   box-shadow: var(--box-shadow);
   padding: 20px;
   display: flex;
@@ -83,7 +93,7 @@ input[type="number"] {
 
 .btn {
   cursor: pointer;
-  background-color: #9c88ff;
+  background-color: #ca1643;
   box-shadow: var(--box-shadow);
   color: #fff;
   border: 0;

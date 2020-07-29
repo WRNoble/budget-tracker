@@ -41,7 +41,7 @@ export const AddTransaction = () => {
             placeholder="Amount of Transaction"
           />
         </div>
-        <button>Add Transaction</button>
+        <button className="btn">Add Transaction</button>
       </form>
     </div>
   );
